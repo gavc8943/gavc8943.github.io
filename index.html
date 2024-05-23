@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gavin Cain</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="Background">
+    <!--Navbar-->
+
+    <div class="Navbar">
+      <a class="active" href="#Home">Home</a>
+      <a href="#About">About</a>
+      <a href="#GitHub">Github</a>
+      <a href="#Contact">Contact</a>
+    </div>
+
+    <!--Breaks for space between navbar and first heading-->
+    <br />
+    <br />
+
+    <!--Background Video-->
+    <div id="Home">
+      <video autoplay muted loop id="Coding_Video">
+        <source src="Images/Video/coding.mp4" type="video/mp4" />
+        <!--message if video doesnt run-->
+        Your browser does not support HTML5 video.
+      </video>
+    </div>
+
+    <!--Video Text-->
+    <div class="Video_Text">
+      <h1 class="white-text">Gavin Cain's Portfolio</h1>
+      <strong>
+        <p class="center">
+          <q>
+            The computer programmer is a creator of universes for which he alone
+            is the lawgiver.
+            <br />No playwright, no stage director, no emperor, however
+            powerful, has ever exercised such absolute authority to arrange a
+            stage or <br />field of battle and to command such unswervingly
+            dutiful actors or troops
+          </q>
+          <br />
+          -Joseph Weizenbaum
+          <br />
+          <br />
+          My name is Gavin Cain. Welcome to my portfolio website. On it, I will
+          tell you about my background and experience.
+          <br />
+          <br />Thank you for stopping by and enjoy!
+        </p>
+      </strong>
+    </div>
+    <!--About section-->
+    <div class="Row" id="About">
+      <!--Left column-->
+      <div class="Column_2">
+        <img src="Images/japan.jpg" alt="Red Shrine Gate" />
+      </div>
+      <!--Right column-->
+      <div class="Column_1">
+        <h1>About</h1>
+        <p>
+          I am a software developer that loves to code! I also enjoy playing
+          guitar and the occasional game of chess.
+          <br />
+          <br />I am a graduate of
+          <a href="https://www.learncodinganywhere.com" target="_blank"
+            >The Tech Academy</a
+          >'s Software Developer Boot camp and trained in the following web and
+          programming languages: HTML, CSS, Javascript and more. <br />
+          I am looking to learn as much as possible on my journey to becoming a
+          full stack developer. Im currently seeking employment.
+          <a href="#Contact">Contact</a> me below!
+        </p>
+      </div>
+    </div>
+    <!--GitHub Section-->
+    <div class="row" id="GitHub">
+      <!--Left column-->
+      <div class="Column_1">
+        <h1>GitHub</h1>
+        <p>
+          You can view my coding projects on my GitHub profile here:
+          <br />
+          <p class="center"><a href="https://github.com/gavc8943">Gavin Cain GitHub</a></p>
+        </p>
+      </div>
+      <!--Right column-->
+      <div class="Column_2">
+        <a href="https://github.com/gavc8943" target="blank"><img src="Images/GitHub.png" alt="GitHub Logo"></a>
+      </div>
+    </div>
+    <!--Contact Section-->
+    <div class="row" id="Contact">
+      <!--Contact Image Left Column-->
+      <div class="Column_2 Column_tall ">
+        <img src="Images/contact.jpg" alt="Old typewrite">
+      </div>
+      <!--Contact form Right Column-->
+      <div class="Column_1 Column_tall">
+        <h1>Contact</h1>
+        <form action="https://formspree.io/f/xoqgzaqw" method="post">
+          <label>Name:</label>
+            <input type="text" placeholder="Please enter your name here">
+          <label>Email:</label>
+            <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+          <label>Message:</label>
+            <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+            <input type="submit" value="SUBMIT">
+        </form>
+      </div>
+
+    </div>
+    <!--Footer Section-->
+    <footer>
+      <p>
+        <p class="center">&copy Prosper Consulting Inc., <a href="https://www.learncodinganywhere.com/" target="_blank">The Tech Academy</a></p>
+        <br>
+      </p>
+    </footer>
+
+  </body>
+</html>
